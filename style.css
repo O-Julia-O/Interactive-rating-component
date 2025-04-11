@@ -109,3 +109,16 @@ body {
     text-align: center;
     gap: 16px;
 }
+
+.thank-you-rating {
+    background-color: #262f38;
+    color: #fc7614;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.thank-you__text {
+    font-size: 15px;
+    color: var(--Grey-500);
+}
