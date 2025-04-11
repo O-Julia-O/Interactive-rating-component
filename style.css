@@ -38,3 +38,14 @@ body {
     border-radius: 25px;
     margin-bottom: 24px;
 }
+
+.feedback-card__title {
+    color: var(--White);
+    margin-bottom: 16px;
+}
+
+.feedback-card__description {
+    color: var(--Grey-500);
+    font-size: 15px;
+    margin-bottom: 16px;
+}
