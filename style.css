@@ -35,7 +35,7 @@ body {
     width: 48px;
     justify-content: center;
     align-items: center;
-    border-radius: 25px;
+    border-radius: 50%;
     margin-bottom: 24px;
 }
 
@@ -48,4 +48,23 @@ body {
     color: var(--Grey-500);
     font-size: 15px;
     margin-bottom: 16px;
+}
+
+.feedback-card__rating {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.feedback-card__rating-btn {
+    background-color: #262f38;
+    color: var(--Grey-500);
+    border: none;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
