@@ -7,3 +7,4 @@ ratingButtons.forEach(button => {
       button.classList.add('selected');
 });
 });
+
