@@ -93,3 +93,8 @@ body {
     transition: background-color 0.3s ease;
     text-transform: uppercase;
 }
+
+.feedback-card__submit:hover {
+    background-color: var(--White);
+    color: var(--Grey-950);
+} 
