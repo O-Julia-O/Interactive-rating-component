@@ -22,8 +22,19 @@ body {
 }
 
 .feedback-card {
-    background-color: var(--Grey-900);
-    border-radius: 25px;
+    background: radial-gradient(#232A34 0%, #181E27 100%);
+    border-radius: 20px;
     max-width: 25.75rem;
     padding: 32px;
+}
+
+.feedback-card__icon {
+    display: flex;
+    background-color: var(--Grey-900);
+    height: 48px;
+    width: 48px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-bottom: 24px;
 }
