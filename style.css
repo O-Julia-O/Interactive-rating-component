@@ -68,3 +68,8 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
+.feedback-card__rating-btn:hover {
+    background-color: var(--White);
+    color: var(--Grey-950);
+}
