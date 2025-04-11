@@ -98,3 +98,14 @@ body {
     background-color: var(--White);
     color: var(--Grey-950);
 } 
+
+
+/* Thank you block starts*/
+
+.feedback-card__thank-you-screen {
+    flex-direction: column;
+    color: var(--White);
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}

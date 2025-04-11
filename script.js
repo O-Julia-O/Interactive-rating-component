@@ -13,5 +13,5 @@ ratingButtons.forEach(button => {
 
 submitBtn.addEventListener('click', () => {
     ratingScreen.style.display = "none";
-    thankYouScreen.style.display = "block";
+    thankYouScreen.style.display = "flex";
 });
