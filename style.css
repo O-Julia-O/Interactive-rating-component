@@ -4,3 +4,26 @@
     box-sizing: border-box;
 }
 
+:root {
+    --Grey-950: hsl(216, 12%, 8%);
+    --Grey-900: hsl(213, 19%, 18%);
+    --Grey-500: hsl(217, 12%, 63%);
+    --White: hsl(0, 100%, 100%);
+    --Orange-500: hsl(25, 97%, 53%)
+}
+
+body {
+    background-color: var(--Grey-950);
+    font-family: "Overpass", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.feedback-card {
+    background-color: var(--Grey-900);
+    border-radius: 25px;
+    max-width: 25.75rem;
+    padding: 32px;
+}
