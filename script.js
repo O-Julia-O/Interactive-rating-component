@@ -1,5 +1,7 @@
 const ratingButtons = document.querySelectorAll('.feedback-card__rating-btn');
 const submitBtn = document.getElementById("submit-btn");
+const ratingScreen = document.getElementById("rating-screen");
+const thankYouScreen = document.getElementById("thank-you-screen");
 
 ratingButtons.forEach(button => {
     button.addEventListener('click', () => {
@@ -10,5 +12,6 @@ ratingButtons.forEach(button => {
 });
 
 submitBtn.addEventListener('click', () => {
-    
+    ratingScreen.style.display = "none";
+    thankYouScreen.style.display = "block";
 });
